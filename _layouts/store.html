@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    {% include navigation.html %}
+    {% include default-page-heading.html %}
+    <!-- Start store content -->
+    <section class="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="span8">
+          <div class="img-polaroid">
+            {{page.map_url}}
+          </div>
+        </div>
+        <div class="span4">
+          <div class="project-widget well info-box">
+            <h3>{{page.store_name}}</h3>
+            <hr>
+            <h4>IN THE STORE</h4>
+            <p>{{page.store_description}}</p>
+            <hr>
+            <h4>PRODUCTS CARRIED</h4>
+            <p>
+            <span class="label label-info">Macarons</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- End store content -->
+    {% include footer.html %}
+  </body>
+</html>
+
+
+

@@ -24,6 +24,13 @@
             <p>
             <span class="label label-info">Macarons</span>
             </p>
+            {% if page.store_url %}
+            <hr>            
+            <h4>WEB SITE</h4>
+            <p>
+            <a href="{{page.store_url}}">{{page.store_url}}</a>
+            </p>
+            {% endif %}
           </div>
         </div>
       </div>

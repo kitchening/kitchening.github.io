@@ -1,17 +1,1 @@
-/* http://stackoverflow.com/questions/12676725/responsive-iframe-google-maps-and-weird-resizing */
-
-.iframe-rwd  {
-  padding-bottom: 65.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-}
-.iframe-rwd iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 .center { float: none; margin-left: auto; margin-right: auto; }

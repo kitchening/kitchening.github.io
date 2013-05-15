@@ -15,18 +15,20 @@
         </div>
         <div class="span4">
           <div class="project-widget well info-box">
-            <h3>{{page.store_name}}</h3>
+            <h4>{{page.store_name}}</h4>
             <hr>
-            <h4>IN THE STORE</h4>
+            <h5>IN THE STORE</h5>
             <p>{{page.store_description}}</p>
             <hr>
-            <h4>PRODUCTS CARRIED</h4>
+            <h5>PRODUCTS CARRIED</h4>
             <p>
-            <span class="label label-info">Macarons</span>
+            {% for item in page.products %}
+            <span class="label label-info">{{item.name}}</span>
+            {% endfor %}
             </p>
             {% if page.store_url %}
             <hr>            
-            <h4>WEB SITE</h4>
+            <h5>WEB SITE</h5>
             <p>
             <a href="{{page.store_url}}">{{page.store_url}}</a>
             </p>

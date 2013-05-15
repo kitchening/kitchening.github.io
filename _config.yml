@@ -2,4 +2,4 @@ url: http://kitchening.ca
 host: http://kitchening.ca
 auto: true
 server: true
-#permalink: pretty
+permalink: pretty

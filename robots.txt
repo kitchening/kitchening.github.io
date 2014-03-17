@@ -1,1 +1,2 @@
 User-agent: *
+Sitemap: http://kitchening.ca/sitemap.xml
